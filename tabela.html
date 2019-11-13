@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+   
+</head>
+
+<body>
+    <h1>Produtos</h1>
+        <table border="2" width="100%"> <!-- definir a borda de 1 pixel ou mais e largura -->
+            <tr><!-- linha da tabela-->
+                <th>Codigo</th> <!-- th é para titulos da tabelas, ele centraliza e deixa em negrito os titulos -->
+                <th>Produto</th>
+                <th>Preço</th>
+                
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$ 2.500,99</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>
+                    Tablet
+                </td>
+                <td>R$ 899,99</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Desconto</td> <!-- estende a linha "no caso agora em duas"-->
+                <td colspan="2">Cupom1 -R$10</td><!-- estender a ocupação de mais de uma coluna-->
+            </tr>
+            <tr>
+                
+                <td colspan="2">Cupom2 -R$10</td><!-- estender a ocupação de mais de uma coluna-->
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">3.400,98</td>
+            </tr>
+        </table>
+</body>
+</html>
